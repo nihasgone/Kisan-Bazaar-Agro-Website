@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height:auto;
+    position: relative;
+    margin-bottom:0px;
+    padding:20px;
+
+
+}
+.navbar-header{
+    display: flex;
+    margin-bottom:0px;
+    padding:0px;
+}
+
+.navbar-brand{
+    position: relative;
+   margin:0px;
+   padding:0px; 
+  
+}
+
+.navbar-brand .logo{
+    width:250px;
+        height:auto;
+        margin:0px;
+        padding:0px;
+margin-left:-90px;
+margin-top:-50px;
+}
+.navbar-brand .farmer{
+   
+    width:100px;
+        height:100px;
+        margin:0px;
+        padding:0px;
+        position: relative;
+        margin-top:35px;
+        top:-40px;
+}
+
+
+.navbar-right ul {
+
+    padding-top: 20px;
+
+}
+
+.navbar-right li {
+    padding-top:60px; 
+  margin-right:20px;
+   
+}
+.active{
+    padding-top: 60px; 
+    margin-left:3%;
+}
+.navbar.back ul li a{
+    text-decoration: none;
+    font-size: 18px;
+  
+    
+}
+span{
+    font-size: 16px;
+}
+.navbar ul li a:hover{
+    color:#388e3c;
+   
+    
+}
+.dropdown .dropdown-menu{
+    height:auto;
+    width:auto;
+   
+overflow: visible;
+margin:0px;
+  line-height:1.5;
+    padding:10px;
+    background-color:white;
+}
+
+.carousel-inner .item {
+    width: 100%;
+    height:700px;
+    margin:0px;
+    padding:0px;
+    
+}
+.carousel-indicators li
+{
+   padding:0px;
+    border: none;
+    outline: none;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+    height: 700px;
+    margin:0px;
+    padding:0px;
+   
+}
+.btn-primary{
+    background-color: #4CAF50 !important;
+    outline:none;
+    border:none !important;
+}
+.btn-primary:hover{
+    background-color: #E65100 !important;
+    outline:none;
+    border:none !important;
+}

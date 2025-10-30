@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="css/Signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    .btn{
+        width:50%;
+    background-color: #3da739;
+    color:white;
+    border:none;
+    
+    
+}
+form{
+    background-color: #FFFFFF80;
+  width:100%;
+
+
+    border-radius: 20px;
+}
+.form-label{
+    width:100%;
+    
+   
+}
+.form-control{
+    width:100%;
+    
+
+}
+.btn:hover{
+    background-color: #2e7d32;
+    color:white;
+    border:none;
+}
+</style>
+</head>
+<body>
+    <div class="container-fluid mb-0">
+<nav class="navbar navbar-default">
+<div class="col-sm-2 navbar-header">
+<a href="#" class="navbar-brand ">
+<img src="Images/WhatsApp_Image_2025-01-26_at_18.47.02_bb166abb-removebg-preview.png" class="farmer" ></a>
+<a href="#" class="navbar-brand"><img src="Images/Green_Minimal_Agriculture_Business_Logo-removebg-preview.png" class="logo" ></a>
+</div>
+<ul class=" col-sm-10 nav navbar-nav navbar-right">
+<li class="active"><a href="index.html" >Home</a></li>
+<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pumps<span class="caret"></span>
+    </a>
+<ul class="dropdown-menu">
+<li><a href="ElectricPumps.html">Electric Pumps</a></li>
+<li><a href="#">Fuel Pumps</a></li>
+<li><a href="#">Hand Pumps</a></li>
+<li><a href="#">Drone Pumps</a></li>
+</ul>
+</li>
+<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Machines<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li><a href="#">Route Vaters</a></li>
+        <li><a href="Cultivators.html">Cultivators</a></li>
+        <li><a href="#">Balers</a></li>
+       
+        </ul>
+</li>
+<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li><a href="#">Hand Tools</a></li>
+        <li><a href="#">Harvesting Tools</a></li>
+        <li><a href="IrrigationTools.html">Irrigation Tools</a></li>
+      
+        </ul>
+</li>
+<li><a href="Motors.html">Motors</a></li>
+<li><a href="Fertilizers.html">Fertilizers</a></li>
+<li><a href="Pestisides.html">Pestisides</a></li>
+<li><a href="ContactUs.html">Contact Us</a></li>
+
+
+<li><a href="Signin.html"><span class="glyphicon glyphicon-log-in " style="font-size:20px;margin-right:5px;padding:0px;"></span>Sign In</a></li>
+<li><a href="#"><span  class="glyphicon glyphicon-shopping-cart" style="font-size:20px;margin-right:5px;padding:0px;"></span></a></li>
+
+
+</nav>
+
+<div class="container-fluid col-sm-12" style="padding:50px;background-image: url('Images/hd.png');background-repeat: no-repeat;background-size: cover;">
+    
+<h1 class="text-center" style="color:white;font-style: italic;"><b>Sign In To  Kisan Bazaar</b></h1>
+<form action="#" name="myform" onsubmit="return SignIn()" style="padding:30px">
+<h3 class="text-center" style="color:white;"><b>Create an Account on Kisan Bazaar</b></h3>
+<div class="row">
+    <div class="col-sm-12  mt-3 mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email"  class="form-control" id="email" autocomplete="off"  placeholder="" name="email" style="background-color: rgba(255, 255, 255, 0.3); border:1px solid rgba(255, 255, 255, 0.6);"><br>
+     
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12  mt-3 mb-3">
+            <label for="pass" class="form-label">Password</label>
+            <input type="password" class="form-control"   id="pass" autocomplete="off" required  placeholder="" name="password" style="background-color: rgba(255, 255, 255, 0.3);border:1px solid rgba(255, 255, 255, 0.6);"><br>
+         
+        </div>
+        </div>
+        <div class="row">
+         
+            <div class="col-sm-12  mt-3 ">
+                <label for="pass" class="form-label" style="margin-bottom:10px;"> <a href="Signin.html" style="text-decoration: none;color:black">Forgot Password?</a></label>
+                
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12  mt-3 mb-3">
+                   <button type="submit" class="btn " style="width:100%;margin-bottom:10px;border-radius: 30px;">Sign In</button>
+                    
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6  mt-3 mb-3">
+                        <label for="pass" class="form-label" style="margin-bottom:10px;text-align:center;"><a href="Signin.html" style="text-decoration: none;color:black">Don't have an account? </a></label>
+                    </div>
+                    <div class="col-sm-6  mt-3 mb-3">
+                        <label for="pass" class="form-label" style="text-align:center;margin-bottom:10px;color:#2e7d32;"><a href="Signin.html" style="text-decoration: none;color:#3da739">Sign up here</a> </label>
+                        
+                     
+                    </div>
+                    </div>
+</form>
+
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+    <h5 class="text-center"style="background-color: #3da739;color:white;height:50px;padding:20px;">&copy; Copyright 2025 Kisan Bazaar Designed And Developed By Gone Nihas</h5>
+    </div>
+<script>
+    function SignIn()
+    {
+        x=document.myform.email.value
+        y=document.myform.password.value
+        if(x=="")
+            {
+alert("Email can't be empty")
+return false
+            }
+            if(y=="")
+            {
+                alert("Password can't be empty")
+                return false 
+            }
+            else{
+                alert("Successfully Signed In to Kisan Bazaar!")
+                return true
+            }
+        
+    }
+</script>
+</body>
+</html>
